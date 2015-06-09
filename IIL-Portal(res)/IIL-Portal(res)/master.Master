@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="IIL_Portal_res_.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css' />
+
+        <link rel="stylesheet" href="css/footer.css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="dist/css/bootstrap-submenu.min.css" />
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="dist/js/bootstrap-submenu.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+
+
+
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="logo_cust">
+                <img src="image/logo.png" alt="logo" title="logo" class="img-responsive" />
+            </div>
+        </div>
+        <div class="menu">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="studprofile.aspx">Your Profile</a></li>
+
+                    <li>
+                        <a href="studupload.aspx">Upload</a>
+
+
+
+                    </li>
+
+                    <li>
+                        <a href="studlibrary.aspx">E-Library</a>
+
+                    </li>
+                    <li>
+                        <a href="studattendance.aspx">Attendance</a>
+
+
+
+                    </li>
+                    <li>
+                        <a href="studtimetable.aspx">Time Table</a>
+
+
+
+
+                    </li>
+                    <li><a href="#">I & P</a></li>
+                    <li><a href="#">Fee History</a></li>
+                    <li><a href="studresult.aspx">Result</a></li>
+
+
+
+
+                </ul>
+                <div class="logout">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="fa fa-power-off"></i>Logout</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div>
+            <div>
+                <asp:ContentPlaceHolder ID="bodystud" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <div class=" navbar navbar-inverse navbar-static-top">
+            <div id="foot">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <footer>
+                            <div class="footer" id="footer">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12">
+                                            <h3>IIL Home </h3>
+                                            <ul>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12">
+                                            <h3>About us </h3>
+                                            <ul>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12">
+                                            <h3>Admission </h3>
+                                            <ul>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12">
+                                            <h3>Academics </h3>
+                                            <ul>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                                <li><a href="#">Lorem Ipsum </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12 ">
+                                            <h3>Lorem Ipsum </h3>
+                                            <ul>
+                                                <li>
+                                                    <div class="input-append newsletter-box text-center">
+                                                        <input type="text" class="full text-center" placeholder="Email " />
+                                                        <button class="btn  bg-gray" type="button">Lorem ipsum <i class="fa fa-long-arrow-right"></i></button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="social">
+                                                <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--/.row-->
+                                </div>
+                                <!--/.container-->
+                            </div>
+                            <!--/.footer-->
+
+                            <div class="footer-bottom">
+                                <div class="container">
+                                    <p class="pull-left">
+                                        Copyright © 2014 Indian Institute of Logistics.
+                                        <br />
+                                        <br />
+                                        <a href="#">Home</a>|<a href="#">About us</a>
+                                    </p>
+                                    <div class="pull-right">
+                                        <a href="http://www.enfosys.in/" target="_blank">
+                                            <img src="image/powered1.png" class="img-responsive  " /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.footer-bottom-->
+                        </footer>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <script>
+
+            $(document).ready(function () {
+                $('.js-activated').dropdownHover().dropdown();
+            });
+        </script>
+        <script>
+            $('.dropdown-submenu > a').submenupicker();
+        </script>
+
+
+    </form>
+</body>
+</html>
+

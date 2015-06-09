@@ -1,0 +1,57 @@
+﻿.ccdbox{
+       
+   
+    
+    margin-right:5px;
+    margin-bottom:15px;
+    margin-left:9px;
+   margin-top:15px;
+ 
+}
+
+
+.ccdetails{
+   
+  padding:20px;
+     line-height:2em;
+   
+ 
+}
+.ccdetails ul li{
+    font-size:14px;
+    font-family:'Segoe UI';
+    color:#333;
+}
+
+.ccdetails label {
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:14px;
+    color:#333;
+    
+}
+
+.ccdetails .labelhead {
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:1.08em;
+    color:#0d0f15;
+    
+    
+}
+.ccdetails .labelsidehead{
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:14px;
+    color:#0d0f15;
+}
+.ccredbox{
+    width:8px;
+    height:8px;
+    background-color:#3a3d4b;
+    
+
+}

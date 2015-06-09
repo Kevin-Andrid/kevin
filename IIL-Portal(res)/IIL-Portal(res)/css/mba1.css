@@ -1,0 +1,152 @@
+﻿.fdbox{
+    
+       
+    background-color:#f8f8f8;
+   margin: 30px 5px 15px 50px;
+   
+ 
+}
+ .nav-tabs > li.active > a:hover{
+     color: #E62125;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+ }
+ .nav > li > a:hover{
+     text-decoration: none;
+background-color: #FFF;
+color: #E62125;
+ }
+
+.cdetails{
+    
+    padding:20px;
+   
+     line-height:2em;
+   
+ 
+}
+
+.cdetails label{
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:14px;
+    color:#333;
+    
+}
+
+.cdetails .labelhead {
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:1.08em;
+    font-weight:bold;
+    color:rgb(192, 57, 43);
+    
+    
+}
+.sredbox{
+    width:8px;
+    height:8px;
+    background-color:rgb(192, 57, 43);
+    top:-2px;
+    left:2px;
+
+}
+
+/*bba*/
+.bdbox{
+    
+       
+    background-color:#f8f8f8;
+margin: 10px 5px 16px 50px;
+   
+   
+ 
+}
+
+.bdetails{
+   
+    padding:5px;
+   
+     line-height:1.8em;
+   
+ 
+}
+
+.bdetails label{
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:14px;
+    color:#333;
+    
+}
+
+.bdetails .labelhead {
+    height:20px;
+    width:50px;
+    font-family:'Segoe UI';
+    font-size:1.08em;
+    font-weight:bold;
+    color:rgb(192, 57, 43);
+    
+    
+}
+.bredbox{
+    width:8px;
+    height:8px;
+    background-color:rgb(192, 57, 43);
+    top:-2px;
+    left:2px;
+
+}
+.overlay{
+    background-color:#e62125;
+    height:40px;
+  text-align:center;
+  line-height:40px;
+  margin-left:20px;
+  margin-top:5px;
+}
+.overlay a{
+    color:#fff;
+    font-family:'Segoe UI';
+    font-size:18px;
+    font-weight:500;
+    
+    
+}
+.overlay:hover{
+    background-color:#fff;
+    color:#e62125;
+    height:40px;
+  text-align:center;
+  line-height:40px;
+  margin-left:20px;
+}
+.overlay:hover a{
+    color:#e62125;
+    font-family:'Segoe UI';
+    font-size:18px;
+    font-weight:500;
+    
+    
+}
+
+
+.heading {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size:22px;
+      color:#0d0f15;
+      font-weight:500;
+      border-left:2px solid #e62125 ;
+      padding-left:5px;
+      margin-top:20px;
+  }
+
+.heading a{
+    color:#0D0f15;
+}

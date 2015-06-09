@@ -1,0 +1,57 @@
+﻿
+
+#fcont{
+    
+   
+    margin:0 auto;
+    margin-top:-20px;
+    padding:5px;
+    line-height:1.5em;
+}
+#fcont p{
+    font-family:'Segoe UI';
+    font-size:14px;
+    text-align:justify;
+    color:#333;
+}
+.flat-table {
+        
+		margin-bottom: 20px;
+		border-collapse:collapse;
+		font-family:Segoe UI;
+		border: none;
+        margin:auto;    
+        margin-top:12px;
+        
+	}
+	.flat-table th, .flat-table td {
+		box-shadow: inset -1.5px -1.5px #fff, 
+			inset -1.5px -1.5px #f8f8f8;
+	}
+	.flat-table th {
+		font-weight: normal;
+        padding-right:20px;
+		padding-left:20px;
+        padding-top:5px;
+        padding-bottom:5px;
+        width:auto;
+		color:#ffffff;  
+        background-color:#e6212d;
+        font-size:17px;
+	}
+	.flat-table td {
+		color: #222;
+		padding-left:12px;
+        padding-right:12px;
+        padding-top:8px;
+        padding-bottom:8px;
+		font-size:14px;
+        background-color:#f8f8f8;
+       
+		
+	}
+	
+	.flat-table-2 {
+		border:1px solid #f8f8f8;
+	}
+	

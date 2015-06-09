@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="trantimetable.Master.cs" Inherits="IIL_Portal_res_.Site1" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css' />
+
+        <link rel="stylesheet" href="css/footer.css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="dist/css/bootstrap-submenu.min.css" />
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="dist/js/bootstrap-submenu.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+
+
+
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="logo_cust">
+                <img src="image/logo.png" alt="logo" title="logo" class="img-responsive" />
+            </div>
+        </div>
+        <div class="menu">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculty <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tranadminpage.aspx">Add/Edit Faculty</a></li>
+                            <li><a href="tranfacultyattendence.aspx">Faculty Attendance </a></li>
+                            <li><a href="tranhourpay.aspx">Faculty Honorarium </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">TimeTable<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="trancreatebatch.aspx">Create Batch/TimeTable</a></li>
+                            <li><a href="tranviewfaculty.aspx">View/Edit TimeTable</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="logout">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <asp:LinkButton ID="btnlogout" runat="server" OnClick="btnlogout_Click"><i class="fa fa-power-off"></i>Logout</asp:LinkButton>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div>
+            <div>
+                <asp:ContentPlaceHolder ID="bodytrain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <div class=" navbar navbar-inverse navbar-static-top">
+            <div id="foot">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <footer>
+
+                            <!--/.footer-->
+
+                            <div class="footer-bottom">
+                                <div class="container">
+                                    <p class="pull-left">
+                                        Copyright © 2014 Indian Institute of Logistics.
+                                        <br />
+                                        <br />
+                                        <a href="#">Home</a>|<a href="#">About us</a>
+                                    </p>
+                                    <div class="pull-right">
+                                        <a href="http://www.enfosys.in/" target="_blank">
+                                            <img src="image/powered1.png" class="img-responsive" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.footer-bottom-->
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+            $(document).ready(function () {
+                $('.js-activated').dropdownHover().dropdown();
+            });
+        </script>
+        <script>
+            $('.dropdown-submenu > a').submenupicker();
+        </script>
+
+        <script>
+            $(function () {
+                $(".dropdown").hover(
+                        function () {
+                            $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                            $(this).toggleClass('open');
+                            $('b', this).toggleClass("caret caret-up");
+                        },
+                        function () {
+                            $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                            $(this).toggleClass('open');
+                            $('b', this).toggleClass("caret caret-up");
+                        });
+            });
+
+        </script>
+
+    </form>
+</body>
+</html>
+

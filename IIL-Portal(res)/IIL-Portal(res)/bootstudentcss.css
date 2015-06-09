@@ -1,0 +1,606 @@
+﻿.container .pagehead label {
+    font-size: 20pt;
+color: #2f2f2f;
+margin-bottom: 4px;
+    font-family:'Segoe UI';
+    
+    
+   
+}
+.container .pagehead {
+    width:100%;
+    border-bottom:1px solid #2f2f2f;
+
+}
+.maincenter  p label {
+    color: #2f2f2f;
+     font-family:'Segoe UI';
+     font-size:15px;
+}
+
+.maincenter {
+    height:auto;
+  
+    margin:0 auto;
+}
+.maincenter label {
+     width:763px;
+      float: left;  
+      margin-top:2px;
+
+}
+
+
+.maincenter1  p label {
+    color: #2f2f2f;
+     font-family:'Segoe UI';
+     font-size:15px;
+     
+}
+
+.maincenter1 {
+    height:auto;
+  
+    margin:0 auto;
+}
+.maincenter1 label {
+       width:180px;
+      float: left;  
+      margin-top:2px;
+
+}
+
+.maincenter2  p label {
+    color: #2f2f2f;
+     font-family:'Segoe UI';
+     font-size:15px;
+     
+}
+
+.maincenter2 {
+  height:auto;
+  width:1000%;
+    margin:0 auto;
+}
+.maincenter2 label {
+       width:180px;
+      float: left;  
+      margin-top:2px;
+
+}
+
+
+
+
+
+.centermain {
+    height:80px;
+   
+    margin:0 auto;
+   
+}
+.centermain label {
+     width:180px;
+      float: left;  
+      margin-top:2px;
+
+}
+
+.ebutt {
+border: 1px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+height: 33px;
+width:230px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+
+}
+.ebutt1{
+border: 1px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+height: 33px;
+width:523px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+
+}
+.ebuttbb {
+border: 1px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+height: 30px;
+width:302px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+
+}
+
+.cd-dropdown {
+  height: 33px;
+   overflow: hidden;
+   font-family:"Lato", Helvetica, Arial, sans-serif;
+   border: 1px solid #bdc3c7;
+   font-size: 15px;
+  width:223px;
+   transition: border .5s linear, color .25s linear, background-color .25s linear;
+   line-height: 1.467;
+
+}
+.cd-dropdown1 {
+    height: 33px;
+    width: 523px;
+   overflow: hidden;
+   font-family:"Lato", Helvetica, Arial, sans-serif;
+   border: 1px solid #bdc3c7;
+   font-size: 15px;
+  
+   transition: border .5s linear, color .25s linear, background-color .25s linear;
+   line-height: 1.467;
+
+}
+
+
+------------------------
+.centercent  p label {
+    color: #2f2f2f;
+     font-family:'Segoe UI';
+   font-size:15px;
+}
+
+.centercent {
+    height:80px;
+  
+    margin:0 auto;
+}
+.centercent label {
+     width:328px;
+      float: left;  
+      margin-top:2px;
+
+}
+.centcenter {
+    height:80px;
+   
+    margin:0 auto;
+   
+}
+.centcenter  label {
+     width:180px;
+      float: left;  
+      margin-top:2px;
+
+}
+
+
+
+
+.centercent1  p label {
+    color: #2f2f2f;
+     font-family:'Segoe UI';
+   font-size:15px;
+}
+
+.centercent1 {
+    height:80px;
+  
+    margin:0 auto;
+}
+.centercent1 label {
+     width:180px;
+      float: left;  
+      margin-top:2px;
+
+}
+.centcenter1 {
+    height:80px;
+   
+    margin:0 auto;
+   
+}
+.centcenter  label {
+     width:180px;
+      float: left;  
+      margin-top:2px;
+
+}
+
+
+
+
+
+
+/*----------------*/
+.etable {
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 115%;
+width: auto;
+overflow: auto;
+display: block;
+}
+    .etable th, .etable td {
+       border:1px solid #ccc ;
+    }
+    .etable a:link, a:visited {
+        color:blue;
+    }
+
+   .etable a:hover, a:active {
+    background-color:lightblue;
+}
+.etable th {
+background-color:#e21f26;
+font-weight: normal;
+color: #fff;
+padding: 12px 30px;
+text-align: center;
+}
+.etable td {
+background-color:#fff;
+padding: 20px 30px;
+color: rgb(111, 111, 111);
+}
+
+.ebuttm {
+border: 2px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+width: 228px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+.etxtlow {
+    border: 1px solid #bdc3c7;
+    color: #34495e;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.467;
+    height: 25px;
+    width: 100%;
+    -webkit-appearance: none;
+  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+.etxthig {
+    border: 1px solid #bdc3c7;
+    color: #34495e;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.467;
+    height: 25px;
+    width: 100%;
+    -webkit-appearance: none;
+  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+.etable input[type=checkbox]
+{
+    display:normal;
+    width : 1.5em;
+    height : 1.5em;
+
+}
+
+.etable label  
+{
+    display: block;
+    float: left;
+    color: #000;
+    cursor: pointer;
+}
+
+.etable input[type=checkbox] + label
+{
+    width            : 3em;
+    height           : 3em;
+    border           : 1em solid rgb(192,192,192);
+ 
+    background       : rgb(211,168,255);
+    background-image : -moz-linear-gradient(rgb(240,240,240),rgb(211,168,255));
+    background-image : -ms-linear-gradient(rgb(240,240,240),rgb(211,168,255));
+    background-image : -o-linear-gradient(rgb(240,240,240),rgb(211,168,255));
+    background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(211,168,255));
+    background-image : linear-gradient(rgb(240,240,240),rgb(211,168,255));
+    vertical-align   : middle;
+    line-height      : 1em;
+    text-indent      : 20px;
+    font-size        : 14px;
+}
+
+.etable input[type=checkbox]:checked + label::before
+{
+    content         : "\2714";
+    color           : #fff;
+    height          : 1em;
+    line-height     : 1.1em;
+    width           : 1em;
+    font-weight     : 900;
+    margin-right    : 6px;
+    margin-left     : -20px;
+}
+
+.checkbox:hover{
+  -webkit-transition: color 0.25s linear;
+  transition: color 0.25s linear;
+}
+.boottable {
+    margin:0 auto;
+    height:auto;
+   
+}
+
+.button {
+white-space: normal;
+padding: 6px 65px;
+font-size: 17px;
+line-height: 1.471;
+color: #ffffff;
+background-color: #2672ec;
+border: none;
+-webkit-font-smoothing: subpixel-antialiased;
+transition: border .25s linear, color .25s linear, background-color .25s linear;
+display: block;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+background-image: none;
+float:right;
+
+}
+#contjus {
+text-align:justify;
+line-height:2em;
+font-size:15px;
+font-family:'Segoe UI';
+color:#333;
+}
+.buttonsub{
+      white-space: normal;
+  padding: 0.5% 2.9% 0.5% 2.7%;
+  font-size: 15px;
+  line-height: 1.471;
+  color: #ffffff;
+  background-color: #2672ec;
+  border: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  background-image: none;
+}
+.buttons {
+white-space: normal;
+  padding:0.5% 18.9% 0.5% 18.7%;
+  font-size: 15px;
+  line-height: 1.471;
+  color: #ffffff;
+  background-color: #2672ec;
+  border: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  background-image: none;
+}
+.button2{
+      white-space: normal;
+  padding: 1% 2% 1% 1.7%;
+  font-size: 15px;
+  line-height: 11px;
+  color: #ffffff;
+  background-color: #2672ec;
+  border: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  /* transition: border .25s linear, color .25s linear, background-color .25s linear; */
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  background-image: none;
+}
+
+h2 {
+      font-size: 150%;
+  font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+  color:#B2B2B2;
+}
+.note ul li {
+    color:#B2B2B2;
+}
+.btnup {
+white-space: normal;
+padding: 5px 45px;
+font-size: 17px;
+line-height: 1.471;
+color: #ffffff;
+background-color:#2ecc71;
+border: none;
+-webkit-font-smoothing: subpixel-antialiased;
+transition: border .25s linear, color .25s linear, background-color .25s linear;
+display: block;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+background-image: none;
+float:right;
+
+}
+.remember {
+    margin-left: 40px;
+}
+
+.remember label {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+	.alert-box {
+	color: #555;
+ 
+  font-family: Tahoma,Geneva,Arial,sans-serif;
+  font-size: 13px;
+  padding: 6px 4px;
+  margin: 8px;
+  color:#e21f26;    
+	}
+	.alert-box span {
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	
+.text-base {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    padding-bottom: .227px;
+    padding-top: .227px;
+}
+
+.txtfromdate {
+border: 1px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+height: 33px;
+width:230px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+
+}
+.txttodate {
+border: 1px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+height: 33px;
+width:230px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+
+}
+
+.txtmonth {
+    border: 1px solid #bdc3c7;
+color: #34495e;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.467;
+height: 33px;
+width:230px;
+-webkit-appearance: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.center {
+margin-top:20px;
+}
+
+  /*Grid*/
+
+.mGrid1 {   
+    margin: 5px 0 10px 0;   
+    border:2px solid #fff;   
+    border-collapse:collapse;   
+    margin:auto;
+}  
+
+.mGrid1 td { 
+ 
+    padding:8px;   
+     border:2px solid #fff;
+      text-align:center;
+        background-color: rgba(136, 205, 255, 0.61);
+     
+}  
+
+.mGridnew th{
+  padding: 12px 12px;
+  color: #fff;
+  background: #003259 url(grd_head.png) repeat-x top;
+  border: 2px solid #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Segoe UI;
+}
+
+.mGrid1 th {   
+  padding: 3px 50px;
+  color: #fff;
+  background: #003259 url(grd_head.png) repeat-x top;
+  border: 2px solid #fff;
+  font-size: 15px;
+  text-align: center;
+  font-family: Segoe UI;
+}
+
+
+    
+ 
+.mGrid1 .alt { background: #f2f1eb url(grd_alt.png) repeat-x top; }  
+.mGrid1 .pgr { background: #c4bfa9 url(grd_pgr.png) repeat-x top; }  
+.mGrid1 .pgr table { margin: 5px 0; }  
+.mGrid1 .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    border:3px solid #fff;
+    color: #fff;   
+    line-height: 12px;   
+ }     
+.mGrid1 .pgr a { color: #666; text-decoration: none; }  
+.mGrid1 .pgr a:hover { color: #000; text-decoration: none; }
+
+.mGrid1 input[type=checkbox]
+{
+    display:normal;
+    width : 1.2em;
+    height : 1.2em;
+
+} 

@@ -1,0 +1,17 @@
+C:\Users\Work Station 7\Documents\Visual Studio 2012\Projects\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).dll
+C:\Users\Work Station 7\Documents\Visual Studio 2012\Projects\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).pdb
+C:\Users\Work Station 7\Documents\Visual Studio 2012\Projects\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).csprojResolveAssemblyReference.cache
+C:\Users\Work Station 7\Documents\Visual Studio 2012\Projects\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).dll
+C:\Users\Work Station 7\Documents\Visual Studio 2012\Projects\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).pdb
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).dll.config
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).dll
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).pdb
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).csprojResolveAssemblyReference.cache
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).dll
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).pdb
+C:\Users\Workstation 7\Documents\Visual Studio 2013\Projects\IIL-Portal(res)\IIL-Portal(res)\bin\AjaxControlToolkit.dll
+D:\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).dll
+D:\IIL-Portal(res)\IIL-Portal(res)\bin\IIL-Portal(res).pdb
+D:\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).csprojResolveAssemblyReference.cache
+D:\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).dll
+D:\IIL-Portal(res)\IIL-Portal(res)\obj\Debug\IIL-Portal(res).pdb
